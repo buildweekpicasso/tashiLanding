@@ -2,6 +2,9 @@
 background-color: #EEEEEE;
 }
 
+
+ /*  header styles here */
+
 .navbar {
     display: flex;
     justify-content: space-between
@@ -47,28 +50,36 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/*  styling-page  styles here */
+
 .styling-page img {
+    margin-left: 10px;
     height: 90px;
     width: 150px;
     margin-top: 30px;
-    padding-left: 50px;
+    margin-left: 50px;
+    border: 5px solid black;
+    border-radius: 50%;
 }
+
+.styling-page button {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.styling-page {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+/*  style-option styles here */
 
 .style-option , p , button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-}
-
-.styling-page button {
-    margin-left: 55px;
-}
-
-.styling-page {
-    padding-left: 65px;
-    /* background-image: url("http://www.guggenheim-venice.it/exhibitions/picasso-sulla-spiaggia/img/Picasso_Bagnante-alla-cabina-che-salta-con-la-corda.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 50px;
 }
 
 .style-option {
@@ -79,6 +90,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+.style-option p {
+    padding-left: 84px;
+}
+
+/*  gallery-option styles here */
 .gallery-option {
     margin-right: 100px;
 }
@@ -87,6 +103,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+.gallery-option p {
+    padding-left: 72px;
+}
+
+/*  history-option styles here */
 .history-option {
     margin-right: 100px;
 }
@@ -96,9 +117,10 @@ h1 {
 }
 
 .history-option p {
-    padding-left: 72px;
+    padding-left: 96px;
 }
 
+/*  info-option styles here */
 .info-option {
     margin-right: 100px;
 }
@@ -108,7 +130,8 @@ h1 {
 }
 
 .info-option p {
-    padding-left: 85px;
+    padding-left: 110px;
 }
+
 
 
