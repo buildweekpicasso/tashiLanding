@@ -1,46 +1,77 @@
-body {
-    background-image: url("https://media.mutualart.com/Images/2013_06/23/03/031346191/38794a0a-cd8c-4002-96b9-a64505005d39_570.Jpeg");
+/* body {
+    background-image: url("https://www.nationalgeographic.com/content/dam/magazine/rights-exempt/2018/05/picasso-timeline/picasso-art-og.ngsversion.1524110468648.adapt.1900.1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .container {
     background-color: #EEEEEE;
 }
 
-/* navbar style here */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-
-.navbar h1 {
-    font-family: 'Damion', cursive;
-    padding-left: 30px;
-    font-size: 60px;
-    font-weight: 900;
-
-}
-
-.navbar a {
-    padding-left: 50px;
-    color: #2B2B2B;
+.menu-content {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    padding: 0 0 0 50px;
 }
 
-.navbar img {
-    height: 80px;
-    width: 150px;
+.collapsible-menu {
+    background-image: url("https://www.culturewhisper.com/redactor_uploads/63f44c1733116d00dc2a19018bdc1c01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.signLog {
-    color: #AA2233;
-    text-decoration: underline;
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.collapsible-menu label {
+    font-family: 'Damion', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    display: block;
+    cursor: pointer;
+    background: url(menu.png) no-repeat left center;
+    padding: 10px 0 10px 50px;
+    color: #2B2B2B;
+    text-shadow: 2px 5px rgb(238, 228, 228);
+}
+    
+input#menu {
+    display: none;
+}
+
+input:checked +label {
+    background-image: url(close.png);
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 0 50px;
+    color: #2B2B2B;
+    font-weight: bolder
+}
+
+    /* Toggle Effect */
+input:checked ~ label {
+    background-image: url(close.png);
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
 }
 
 /* about style here */
+.about {
+    padding-top: 30px;
+}
+
 .about p {
     padding: 20px;
     font-family: 'Montserrat', sans-serif;

@@ -17,21 +17,24 @@
 
     <div class="container"> 
 
-      <div class="navbar">
-          <div>
-            <h1>Picasso</h1>
-          </div>
-          <div>
-            <a href="">History</a>
-            <a href="">Gallery</a>
-            <a href="https://picasso-frontend.netlify.com/login"><span class="signLog">Sign Up/Log In</span></a>
-          </div>
-      </div> <!-- navbar end -->
+        <div class="collapsible-menu">
+            <input type="checkbox" id="menu">
+            <label for="menu">Picasso</label>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="#"></a>History</li>
+                    <li><a href="#"></a>Gallery</li>
+                    <li><a href="#"></a>Influence</li>
+                    <li><a href="#"></a>About</li>
+                    <li><a href="#"></a>Sign-In/Log-In</li>
+                 </ul>
+             </div>
+        </div>
 
       <div class="about">
         <div class="row">
           <div class="col-lg-6">
-            <img class="aboutPic2" src="https://p1.storage.canalblog.com/28/40/119589/117796144_o.jpg" alt="">
+            <img src="https://d2u3kfwd92fzu7.cloudfront.net/catalog/artwork/gallery/1104/PEI-030-001_copy.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <p>As a significant influence on 20th-century art, Pablo Picasso was an innovative artist who experimented and innovated during his 92-plus years on earth. He was not only a master painter but also a sculptor, printmaker, ceramics artist, etching artist and writer. His work matured from the naturalism of his childhood through Cubism, Surrealism and beyond, shaping the direction of modern and contemporary art through the decades. Picasso lived through two World Wars, sired four children, appeared in films and wrote poetry. He died in 1973.</p>
@@ -44,17 +47,17 @@
             <h1>Join And Explore Art </h1>
               <form class="contact-form">
                  <div class="form-group">
-                    <input type="text" name="fname" class="fname"                           placeholder="First Name">
-                    <input type="text" name="lname" class="lname"                           placeholder="Last Name">
+                    <input type="text" name="fname" class="fname" placeholder="First Name">
+                    <input type="text" name="lname" class="lname" placeholder="Last Name">
+                 </div>
+                  <div class="form-group">
+                    <input type="email" name="email" class="email" placeholder="Email">
                   </div>
                   <div class="form-group">
-                    <input type="email" name="email" class="email"                         placeholder="Email">
+                    <textarea name="message" class="message" rows="10" placeholder="Message"></textarea>
                   </div>
                   <div class="form-group">
-                    <textarea name="message" class="message" rows="10" p                   placeholder="Message"></textarea>
-                  </div>
-                  <div class="form-group">
-                      <input type="submit" value="Send" class="submit">
+                      <input type="submit" value="send" class="submit">
                   </div>
               </form>
           </div> <!-- container form -->
