@@ -5,77 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Picasso Landing Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Damion|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="picasso.css">
   </head>
   <body>
-        
-        <div class="navbar">
-            <h1>Picasso</h1>
-            <!-- <button type="button" class="btn btn-default navbar-btn">Sign in</button> -->
-            <a href="">Home</a>
-            <a href="">Picasso Museum</a>
-            <a href="https://picasso-frontend.netlify.com/login">Sign-Up/Log-In</a>
-        </div>
+    
 
-      <div class="container">
-          
-        <div class="about">
-
-          <div class="row">
-
-            <div col-lg-8>
-              <img class="" src="https://spectator.imgix.net/content/uploads/2010/10/6419503-1.jpg?auto=compress,enhance,format&crop=faces,entropy,edges&fit=crop&w=709&h=507" alt="Portrait">
-            </div>
-            <div col-lg-4>
-              <p>As a significant influence on 20th-century art, Pablo Picasso was an innovative artist who experimented and innovated during his 92-plus years on earth. He was not only a master painter but also a sculptor, printmaker, ceramics artist, etching artist and writer. His work matured from the naturalism of his childhood through Cubism, Surrealism and beyond, shaping the direction of modern and contemporary art through the decades. Picasso lived through two World Wars, sired four children, appeared in films and wrote poetry. He died in 1973.</p>
-            </div>
-
-          </div> 
-
-        </div> <!-- about end -->
-
-        <div class="styling-page">
-          <div class="row">
-                <div class="style-option">
-                <div col-lg-3>
-                  <img src="https://www.pablopicasso.org/images/paintings/the-weeping-woman.jpg" alt="">
-                  <p>Style Page </p>
-                  <button>Click Here</button>
-                </div>
-                </div> <!-- style option end -->
-
-                <div class="gallery-option">
-                <div col-lg-3>
-                  <img src="http://www.artyfactory.com/art_appreciation/visual-elements/images/color/kandinsky.jpg" alt="">
-                  <p>Photo Gallery</p>
-                  <button>Click Here</button>
-                </div>
-                </div> <!-- gallery-option end -->
-
-                
-                <div class="history-option">
-                 <div col-lg-3>
-                  <img src="https://www.pablopicasso.org/images/paintings/girl-before-a-mirror.jpg" alt="">
-                  <p>History</p>
-                  <button>Click Here</button>
-                </div> 
-                </div> <!-- history option end -->
-
-                <div class="info-option">
-                  <div col-lg-3>
-                    <img src="https://www.neworld.com/wordpress/wp-content/uploads/2018/12/picasso-logo-1152x1152-5bff18ace1f4f-png__880.jpg" alt="">
-                   <p>Info</p>
-                   <button>Click Here</button>
-                  </div>
-                </div> <!-- info-option end -->
-
-          </div> <!-- row end -->
-        </div> <!-- styling-page end -->
    
 
-      </div> <!-- container end -->      
+    <div class="container"> 
+
+      <div class="navbar">
+          <div>
+            <h1>Picasso</h1>
+          </div>
+          <div>
+            <a href="">History</a>
+            <a href="">Gallery</a>
+            <a href="https://picasso-frontend.netlify.com/login"><span class="signLog">Sign Up/Log In</span></a>
+          </div>
+      </div> <!-- navbar end -->
+
+      <div class="form-section">
+        <div class="row">
+          <div class="col-lg-8">
+               <img src="https://a.1stdibscdn.com/pablo-picasso-prints-works-on-paper-peintre-au-travail-peintre-barbu-avec-modele-nu-et-un-spectateur-1-novembre-for-sale/a_2932/1526926102138/Picasso_1122_master.jpg?width=768" alt="">
+          </div>
+          <div class="col-lg-4">
+              <form class="form-Field" action="/action_page.php" method="get" target="_blank">
+               <span>First name :</span>  <input class="fName" type="text" name="fname"><br>
+               <span>Last name :</span>  <input class="lName" type="text" name="lname"><br>
+               <span>Email :</span>  <input class="eMail" type="text" name="email"><br>
+                <input class="submit" type="submit" value="Submit">
+              </form>
+          </div>
+        </div>
+      </div> <!-- form-section end -->
+
+     
+
+      <div class="about">
+        <div class="row">
+          <div class="col-lg-8">
+            <img class="" src="https://www.pablopicasso.org/images/paintings/the-weeping-woman.jpg" alt="Portrait">
+          </div>
+          <div class="col-lg-4">
+            <p>As a significant influence on 20th-century art, Pablo Picasso was an innovative artist who experimented and innovated during his 92-plus years on earth. He was not only a master painter but also a sculptor, printmaker, ceramics artist, etching artist and writer. His work matured from the naturalism of his childhood through Cubism, Surrealism and beyond, shaping the direction of modern and contemporary art through the decades. Picasso lived through two World Wars, sired four children, appeared in films and wrote poetry. He died in 1973.</p>
+          </div>
+        </div> <!-- about end -->
+
+ 
+
+    </div> <!-- container end -->    
   </body>
 </html>
