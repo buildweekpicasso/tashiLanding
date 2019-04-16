@@ -1,5 +1,5 @@
 body {
-    background-image: url("http://www.artcentrebasel.com/wp-content/uploads//2015/07/PicassoPabloReclining-Nude-1964-B99_1435.jpg");
+    background-image: url("https://media.mutualart.com/Images/2013_06/23/03/031346191/38794a0a-cd8c-4002-96b9-a64505005d39_570.Jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,7 +9,6 @@ body {
 }
 
 /* navbar style here */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -41,58 +40,7 @@ body {
     text-decoration: underline;
 }
 
-/* form-section style here */
-
-.form-section img {
-    height: 450px;
-    width: 640px;
-    border: 2px solid black;
-}
-
-.form-section .fName {
-    margin-top: 100px;
-    margin-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid black;
-    border-radius: 5rem;
-    height: 40px;
-}
-
-.form-section .lName {
-    margin-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid black;
-    border-radius: 5rem;
-    height: 40px;
-}
-
-.form-section .eMail {
-    margin-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 40px;
-    border: 2px solid black;
-    border-radius: 5rem;
-    height: 40px;
-}
-
-.form-section .submit {
-    border-radius: 5rem;
-    height: 40px;
-    width: 50%;
-    border: 2px solid black;
-    margin-left: 108px;
-    color: #AA2233;
-    font-weight: bolder;
-}
-
-.form-Field span {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    color: #AA2233;
-    text-align: center;
-}
 /* about style here */
-
 .about p {
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -100,7 +48,76 @@ body {
     text-align: center;
 }
 
+.about p:first-child {
+    font-family: 'Damion', cursive;
+    font-weight: 900;
+    font-size: 25px;
+}
+
 .about img {
     height: 500px;
     border: 2px solid black;
+ 
+}
+
+/* form style here*/
+h1 {
+    font-size: 2.25rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0.5rem;
+}
+.contact-form {
+    width: 90%;
+    margin: 0 auto;
+}
+.form-group {
+    padding: 0.5rem;
+}
+.fname, .lname, .email {
+    height: 35px;
+    border:none;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 0 5px;
+    transition: .1s ease;
+}
+.fname:focus, .lname:focus, .email:focus, .message:focus {
+    box-shadow: 0px 0px 10px #aaa;
+}
+.fname {
+    width: 47.5%;
+}
+.lname {
+    margin-left: 4%;
+    width: 47.5%
+}
+.email {
+    width: 100%;
+}
+.message {
+    height: 105px;
+    width: 100%;
+    border:none;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 5px 5px;
+    transition: .1s ease;
+    font-family: Helvetica, sans-serif;
+}
+.submit {
+    width:100%;
+    height:35px;
+    border:none;
+    border-radius: 0.5rem;
+    color:#fff;
+    background: #AA2233;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.submit:hover {
+    background: yellow;
+    color: black;
 }
