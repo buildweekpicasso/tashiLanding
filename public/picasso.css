@@ -4,11 +4,6 @@
 }
 
 /* navbar style here */
-.menu-content {
-    font-family: 'Montserrat', sans-serif;
-    padding: 0 0 0 50px;
-}
-
 .navbar {
     background-image: url("http://www.moma.org/media/W1siZiIsIjI5ODcxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=1f73dca2629bc5e5");
     background-repeat: no-repeat;
@@ -18,7 +13,7 @@
 .icons i {
     font-size: 50px;
     color: white;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 /* .collapsible-menu {
@@ -41,12 +36,12 @@
 
 .collapsible-menu label {
     font-family: 'Damion', cursive;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 400;
     display: block;
     cursor: pointer;
     background: url(menu.png) no-repeat left center;
-    padding: 10px 0 10px 65px;
+    padding: 10px 0 10px 140px;
     color: white;
     text-shadow: 2px 5px black;
 }
@@ -63,7 +58,7 @@ input:checked +label {
     max-height: 0;
     overflow: hidden;
     font-family: 'Dokdo', cursive;
-    padding: 0 0 0 50px;
+    padding: 0 0 0 110px;
     color: #2B2B2B;
     font-weight: bolder;
     font-size: 25px;
@@ -80,7 +75,7 @@ input:checked ~ .menu-content {
 /* about style here */
 .about {
     padding-top: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .about p {
@@ -112,7 +107,8 @@ input:checked ~ .menu-content {
 .art-header p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    padding: 0 145px;
+    padding: 0 50px 70px auto;
+    margin-bottom: 90px;
 }
 
 /* art-section style here*/
