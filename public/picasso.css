@@ -9,11 +9,23 @@
     padding: 0 0 0 50px;
 }
 
-.collapsible-menu {
+.navbar {
     background-image: url("http://www.moma.org/media/W1siZiIsIjI5ODcxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=1f73dca2629bc5e5");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.icons i {
+    font-size: 50px;
+    color: white;
+    margin-left: 30px;
+}
+
+/* .collapsible-menu {
+    background-image: url("http://www.moma.org/media/W1siZiIsIjI5ODcxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=1f73dca2629bc5e5");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 .collapsible-menu ul {
     list-style-type: none;
@@ -29,14 +41,14 @@
 
 .collapsible-menu label {
     font-family: 'Damion', cursive;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
     display: block;
     cursor: pointer;
     background: url(menu.png) no-repeat left center;
-    padding: 10px 0 10px 50px;
+    padding: 10px 0 10px 65px;
     color: white;
-    text-shadow: 2px 5px #B2B5A7;
+    text-shadow: 2px 5px black;
 }
     
 input#menu {
@@ -89,6 +101,18 @@ input:checked ~ .menu-content {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-bottom: 65px;
+}
+
+.art-header h1 {
+    font-family: 'Dokdo', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.art-header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 0 145px;
 }
 
 /* art-section style here*/
@@ -226,7 +250,7 @@ h1 {
 }
 
 .collapsible-menu2 {
-    background-color: #3B9CE6;
+    background-color: #427FC4;
 }
 
 .collapsible-menu2 ul {
@@ -239,6 +263,7 @@ h1 {
     padding: 10px;
     text-decoration: none;
     color: white;
+    text-shadow: 2px 2px black;
 }
 
 .collapsible-menu2 label {
@@ -250,8 +275,7 @@ h1 {
     background: url(menu.png) no-repeat left center;
     color: white;
     text-shadow: 2px 2px black;
-    text-align: center;
-    padding-left: -5px;
+    padding-left: 55px;
 }
     
 input#menu {
@@ -269,7 +293,6 @@ input:checked +label {
     padding: 0 0 0 50px;
     color: white;
     font-weight: bolder;
-    text-align: center;
     font-size: 25px;
 }
 
@@ -301,7 +324,8 @@ input:checked ~ .menu-content2 {
 .about-Us p {
     font-weight: 400;
     font-size: 35px;
-    color: #48AEF2;
+    color: #15C154;
+    text-shadow: 2px 2px black;
     
 }
 
