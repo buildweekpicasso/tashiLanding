@@ -128,13 +128,13 @@ input:checked ~ .menu-content {
 }
 
 #pic2 {
-    margin-top: 132px;
-    height: 285px;
+    margin-top: 108px;
+    /* height: 285px; */
 }
 
 #pic3 {
     margin-top: 82px;
-    height: 335px;
+    /* height: 335px; */
 }
 
 #pic4 {
