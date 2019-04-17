@@ -1,8 +1,3 @@
-/* body {
-    background-image: url("https://www.nationalgeographic.com/content/dam/magazine/rights-exempt/2018/05/picasso-timeline/picasso-art-og.ngsversion.1524110468648.adapt.1900.1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .container {
     background-color: #EEEEEE;
@@ -132,8 +127,6 @@ input:checked ~ .menu-content {
     margin-top: 61px;
 }
 
-
-
 /* form style here*/
 h1 {
     font-size: 2.25rem;
@@ -141,13 +134,16 @@ h1 {
     text-align: center;
     padding: 0.5rem;
 }
+
 .contact-form {
     width: 90%;
     margin: 0 auto;
 }
+
 .form-group {
     padding: 0.5rem;
 }
+
 .fname, .lname, .email {
     height: 35px;
     border:none;
@@ -156,19 +152,24 @@ h1 {
     padding: 0 5px;
     transition: .1s ease;
 }
+
 .fname:focus, .lname:focus, .email:focus, .message:focus {
     box-shadow: 0px 0px 10px #aaa;
 }
+
 .fname {
     width: 46.5%;
 }
+
 .lname {
     margin-left: 4%;
     width: 47.5%
 }
+
 .email {
     width: 100%;
 }
+
 .message {
     height: 105px;
     width: 100%;
@@ -179,6 +180,7 @@ h1 {
     transition: .1s ease;
     font-family: Helvetica, sans-serif;
 }
+
 .submit {
     width:100%;
     height:35px;
@@ -191,10 +193,26 @@ h1 {
     cursor: pointer;
     transition: .2s ease-in-out;
 }
+
 .submit:hover {
     background: yellow;
     color: black;
 }
+
+
+/* landing page style css ending  */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ABOUT US Css Starts here */
 /* ___________________________________________ */
@@ -268,7 +286,7 @@ input:checked ~ .menu-content2 {
     padding-top: 80px;
     text-align: center;
     font-family: 'Indie Flower', cursive;
-    background-color: #0D63A5;
+    background-color: #EEEEEE;
 }
 
 .about-Us h2 {
@@ -283,58 +301,92 @@ input:checked ~ .menu-content2 {
 .about-Us p {
     font-weight: 400;
     font-size: 35px;
-    color: white;
+    color: #48AEF2;
     
 }
 
 /* team-Info style here */
-.team-Info p {
-    font-family: 'Raleway', sans-serif;
-}
-
 .team-profile {
-    background-color: #CFD1C4;
+    background-image: url("http://www.softteco.com/blog/wp-content/uploads/2016/04/Building-mobile-application.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+    color: #48AEF2;
 }
 
-/* company-img style here */
-.company-img {
-    margin-right: 150px;
-    margin-left: 100px;
+.team-profile p {
+    color: white;
 }
 
-.company-img img {
-    height: 120px;
-    width: 150px;
-    border-radius: 5rem;
+/* about page form style here */
+h1 {
+    font-size: 2.25rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bolder;
+}
+.contact-form2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.form-group2 {
+    padding: 0.5rem;
+}
+.fname2, .lname2, .email2 {
+    height: 35px;
+    border:none;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 0 5px;
+    transition: .1s ease;
 }
 
-.company-img .pic1 {
-    margin-top: 229px;
-    margin-left: 226px;
+.fname2:focus, .lname2:focus, .email2:focus, .message2:focus {
+    box-shadow: 0px 0px 10px #aaa;
 }
 
-.company-img .pic2 {
-    margin-top: 21px;
-    margin-left: 100px;
+.fname2 {
+    width: 46.5%;
 }
 
-.company-img .pic3 {
-    margin-top: 125px;
-    margin-left: -41px;
+.lname2 {
+    margin-left: 4%;
+    width: 47.5%
 }
 
-.company-img .pic4 {
-    margin-top: 258px;
-    margin-left: 125px;
+.email2 {
+    width: 100%;
 }
 
-.company-img .pic5 {
-    margin-top: 50px;
-    margin-right: 20px;
+.message2 {
+    height: 105px;
+    width: 100%;
+    border:none;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 5px 5px;
+    transition: .1s ease;
+    font-family: Helvetica, sans-serif;
 }
 
-.company-img .pic6 {
-    margin-top: 154px;
-    margin-right: 20px;
+.submit2 {
+    width:100%;
+    height:35px;
+    border:none;
+    border-radius: 0.5rem;
+    color:#fff;
+    background: #3B9CE6;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
 }
+
+.submit2:hover {
+    background: #CBE83E;
+    color: black;
+}
+
+
 
