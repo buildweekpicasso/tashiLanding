@@ -41,7 +41,7 @@
 
 .collapsible-menu label {
     font-family: 'Damion', cursive;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 400;
     display: block;
     cursor: pointer;
@@ -249,6 +249,14 @@ h1 {
     padding: 0 0 0 50px;
 }
 
+.icons2 i {
+    font-size: 50px;
+    color: #427FC4;
+    margin-left: 257px;
+
+    
+}
+
 .collapsible-menu2 {
     background-color: #427FC4;
 }
@@ -264,6 +272,7 @@ h1 {
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px black;
+    text-align: center;
 }
 
 .collapsible-menu2 label {
@@ -276,6 +285,7 @@ h1 {
     color: white;
     text-shadow: 2px 2px black;
     padding-left: 55px;
+    text-align: center;
 }
     
 input#menu {
