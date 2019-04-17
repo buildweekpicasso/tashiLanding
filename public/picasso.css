@@ -15,7 +15,7 @@
 }
 
 .collapsible-menu {
-    background-image: url("https://www.culturewhisper.com/redactor_uploads/63f44c1733116d00dc2a19018bdc1c01.jpg");
+    background-image: url("http://www.moma.org/media/W1siZiIsIjI5ODcxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=1f73dca2629bc5e5");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,7 +29,7 @@
     display:block;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .collapsible-menu label {
@@ -40,8 +40,8 @@
     cursor: pointer;
     background: url(menu.png) no-repeat left center;
     padding: 10px 0 10px 50px;
-    color: #2B2B2B;
-    text-shadow: 2px 5px rgb(238, 228, 228);
+    color: white;
+    text-shadow: 2px 5px #B2B5A7;
 }
     
 input#menu {
@@ -83,17 +83,56 @@ input:checked ~ .menu-content {
     text-align: center;
 }
 
-/* .about p:first-child {
-    font-family: 'Damion', cursive;
-    font-weight: 900;
-    font-size: 25px;
-} */
-
 .about img {
     height: 500px;
     border: 2px solid black;
     width: 100%;
 }
+
+/* art-header style here*/
+.art-header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+/* art-section style here*/
+.art-section {
+    text-align: center;
+    background-image: url("https://www.metmuseum.org/toah/images/hb/hb_50.188.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art-section p {
+    padding-top: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.art-section img {
+    margin-top: 50px;
+}
+
+#pic1 {
+    margin-top: 12px;
+}
+
+#pic2 {
+    margin-top: 132px;
+    height: 285px;
+}
+
+#pic3 {
+    margin-top: 82px;
+    height: 335px;
+}
+
+#pic4 {
+    margin-top: 61px;
+}
+
+
 
 /* form style here*/
 h1 {
@@ -163,8 +202,6 @@ h1 {
 
 
 /* about navbar style here */
-
-
 .menu-content2 {
     font-family: 'Montserrat', sans-serif;
     padding: 0 0 0 50px;
@@ -266,36 +303,37 @@ input:checked ~ .menu-content2 {
 }
 
 .company-img img {
-   height: 100px;
-   width: 150px;
+    height: 120px;
+    width: 150px;
+    border-radius: 5rem;
 }
 
-.pic1 {
+.company-img .pic1 {
     margin-top: 229px;
     margin-left: 226px;
 }
 
-.pic2 {
+.company-img .pic2 {
     margin-top: 21px;
     margin-left: 100px;
 }
 
-.pic3 {
+.company-img .pic3 {
     margin-top: 125px;
     margin-left: -41px;
 }
 
-.pic4 {
+.company-img .pic4 {
     margin-top: 258px;
     margin-left: 125px;
 }
 
-.pic5 {
+.company-img .pic5 {
     margin-top: 50px;
     margin-right: 20px;
 }
 
-.pic6 {
+.company-img .pic6 {
     margin-top: 154px;
     margin-right: 20px;
 }
