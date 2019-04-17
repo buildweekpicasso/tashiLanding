@@ -74,6 +74,7 @@ input:checked ~ .menu-content {
 }
 
 .about p {
+    margin-top: 50px;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -126,20 +127,20 @@ input:checked ~ .menu-content {
 
 #pic1 {
     margin-top: 12px;
+    width: 100%;
 }
 
 #pic2 {
     margin-top: 108px;
-    /* height: 285px; */
 }
 
 #pic3 {
-    margin-top: 82px;
-    /* height: 335px; */
+    margin-top: 82px;  
 }
 
 #pic4 {
-    margin-top: 61px;
+    margin-top: 64px;
+    width: 100%;
 }
 
 /* form style here*/
