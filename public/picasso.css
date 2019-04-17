@@ -11,16 +11,10 @@
 }
 
 .icons i {
-    font-size: 50px;
+    font-size: 0px;
     color: white;
     margin-left: 50px;
 }
-
-/* .collapsible-menu {
-    background-image: url("http://www.moma.org/media/W1siZiIsIjI5ODcxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=1f73dca2629bc5e5");
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .collapsible-menu ul {
     list-style-type: none;
@@ -41,7 +35,7 @@
     display: block;
     cursor: pointer;
     background: url(menu.png) no-repeat left center;
-    padding: 10px 0 10px 140px;
+    padding: 10px 0 10px 147px;
     color: white;
     text-shadow: 2px 5px black;
 }
@@ -58,7 +52,7 @@ input:checked +label {
     max-height: 0;
     overflow: hidden;
     font-family: 'Dokdo', cursive;
-    padding: 0 0 0 110px;
+    padding: 0 0 0 123px;
     color: #2B2B2B;
     font-weight: bolder;
     font-size: 25px;
@@ -240,21 +234,8 @@ h1 {
 
 
 /* about navbar style here */
-.menu-content2 {
-    font-family: 'Montserrat', sans-serif;
-    padding: 0 0 0 50px;
-}
-
-.icons2 i {
-    font-size: 50px;
-    color: #427FC4;
-    margin-left: 257px;
-
-    
-}
-
 .collapsible-menu2 {
-    background-color: #427FC4;
+    background-color: #1090E5;
 }
 
 .collapsible-menu2 ul {
@@ -273,14 +254,13 @@ h1 {
 
 .collapsible-menu2 label {
     font-family: 'Damion', cursive;
-    font-size: 70px;
+    font-size: 35px;
     font-weight: 400;
     display: block;
     cursor: pointer;
     background: url(menu.png) no-repeat left center;
     color: white;
     text-shadow: 2px 2px black;
-    padding-left: 55px;
     text-align: center;
 }
     
@@ -296,7 +276,6 @@ input:checked +label {
     max-height: 0;
     overflow: hidden;
     font-family: 'Dokdo', cursive;
-    padding: 0 0 0 50px;
     color: white;
     font-weight: bolder;
     font-size: 25px;
@@ -417,6 +396,46 @@ h1 {
     background: #CBE83E;
     color: black;
 }
+
+/* get-started style here */
+.get-started {
+    background-color: #1090E5;
+    width: 100%;
+}
+
+.get-started h2 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    /* margin-left: 20px; */
+    font-size: -50px;
+    text-align: center;
+}
+
+.get-started button {
+    border-radius: 3px;
+    background-color: #89E312;
+    color: white;
+    margin-left: 127px;
+    height: 30px;
+    font-size: 10px;
+    padding: auto;
+}
+
+.get-started img {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 130px;
+    border-radius: 50%;
+    width: auto;
+}
+
+.get-started p {
+    color: white;
+    font-family: 'Amatic SC', cursive; 
+    text-align: center;
+}
+
 
 
 
