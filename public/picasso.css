@@ -3,7 +3,7 @@
     background-color: #EEEEEE;
 }
 
-/* navbar style here */
+              /* navbar style here */
 .navbar {
     background-image: url("http://www.moma.org/media/W1siZiIsIjI5ODcxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=1f73dca2629bc5e5");
     background-repeat: no-repeat;
@@ -11,9 +11,10 @@
 }
 
 .icons i {
-    font-size: 0px;
+    font-size: 40px;
     color: white;
     margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 .collapsible-menu ul {
@@ -29,7 +30,7 @@
 }
 
 .collapsible-menu label {
-    font-family: 'Damion', cursive;
+    font-family: 'Dokdo', cursive;
     font-size: 50px;
     font-weight: 400;
     display: block;
@@ -52,7 +53,7 @@ input:checked +label {
     max-height: 0;
     overflow: hidden;
     font-family: 'Dokdo', cursive;
-    padding: 0 0 0 123px;
+    padding: 0 0 0 137px;
     color: #2B2B2B;
     font-weight: bolder;
     font-size: 25px;
@@ -80,7 +81,7 @@ input:checked ~ .menu-content {
 }
 
 .about img {
-    height: 500px;
+    height: auto;
     border: 2px solid black;
     width: 100%;
 }
@@ -213,7 +214,6 @@ h1 {
     color: black;
 }
 
-
 /* landing page style css ending  */
 
 
@@ -224,12 +224,35 @@ h1 {
 
 
 
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
+/*____________________________________________________*/
 
 
 
-
-/* ABOUT US Css Starts here */
-/* ___________________________________________ */
+           /* ABOUT US Css Starts here */
+/*____________________________________________________*/
 
 
 
@@ -316,7 +339,7 @@ input:checked ~ .menu-content2 {
 
 /* team-Info style here */
 .team-profile {
-    background-image: url("http://www.softteco.com/blog/wp-content/uploads/2016/04/Building-mobile-application.jpg");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 20px;
@@ -400,14 +423,14 @@ h1 {
 /* get-started style here */
 .get-started {
     background-color: #1090E5;
-    width: 100%;
+    /* width: 100%; */
+    
 }
 
 .get-started h2 {
     color: white;
-    font-family: Helvetica, sans-serif;
-    /* margin-left: 20px; */
-    font-size: -50px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -415,25 +438,26 @@ h1 {
     border-radius: 3px;
     background-color: #89E312;
     color: white;
-    margin-left: 127px;
+    margin: 0 137px;
     height: 30px;
     font-size: 10px;
-    padding: auto;
+    /* padding: auto; */
+    /* text-align: center; */
+    width: 50%;
 }
 
 .get-started img {
     height: 100px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    margin-left: 130px;
+    margin-left: 346px;
     border-radius: 50%;
     width: auto;
+    margin-bottom: 50px;
 }
 
 .get-started p {
     color: white;
     font-family: 'Amatic SC', cursive; 
-    text-align: center;
+    margin-bottom: 0;
 }
 
 
