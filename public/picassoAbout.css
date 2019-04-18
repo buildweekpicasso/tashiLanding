@@ -187,9 +187,24 @@ h1 {
     color: black;
 }
 
-/* team-profile style here */
-.team-profile p {
-   color: black;
-   text-align: center;
+/* ourTeam style here */
+.ourTeam h2 {
+    text-align: center;
+    margin-top: 20px;
 }
 
+.ourTeam p {
+    text-align: center;
+    margin: 30px 220px;
+}
+    
+.ourTeam hr {
+    border-bottom: 2px solid red;
+    margin: 0 520px;
+}
+
+/*  meet-Team style here    */
+.meet-Team p {
+    text-align: center;
+    padding: 125px 50px;
+}
