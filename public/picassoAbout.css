@@ -1,19 +1,4 @@
 /* about navbar style here */
-/* .container {
-    background-image: url("https://cms.qz.com/wp-content/uploads/2016/05/siliconvalley.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #C378E8;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-} */
-
-.collapsible-menu2 {
-    /* background-image: url("https://cms.qz.com/wp-content/uploads/2016/05/siliconvalley.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(91, 13, 130, 0.6); */
-}
 
 .collapsible-menu2 ul {
     list-style-type: none;
@@ -67,7 +52,7 @@ input:checked ~ .menu-content2 {
 }
 
 /* get-started style here */
-.get-started {
+.purple {
     background-image: url("https://cms.qz.com/wp-content/uploads/2016/05/siliconvalley.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,23 +65,32 @@ input:checked ~ .menu-content2 {
     font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     text-align: center;
+    margin-top: 40px;
 }
 
 .get-started button {
     border-radius: 3px;
     background-color: #89E312;
     color: white;
-    margin: 0 65px;
+    margin-left: 90px;
     height: 30px;
     font-size: 10px;
-    /* padding: auto; */
-    /* text-align: center; */
     width: 50%;
 }
 
 .get-started img {
     width: 100%;
 }
+
+#mix-img1 {
+    margin-left: 80px;
+    margin-top: 25px;
+    /* margin-bottom: 25px; */
+}
+
+/* #mix-img2 {
+    margin-bottom: 25px;
+} */
 
 .get-started p {
     color: white;
@@ -198,7 +192,4 @@ h1 {
    color: black;
    text-align: center;
 }
-
-
-
 

@@ -10,11 +10,17 @@
     background-size: cover;
 }
 
+.navbar a {
+    color: white;
+    font-family: 'Dokdo', cursive;
+    font-size: 30px;
+}
+
 .icons i {
     font-size: 40px;
     color: white;
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .collapsible-menu ul {
@@ -31,12 +37,13 @@
 
 .collapsible-menu label {
     font-family: 'Dokdo', cursive;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     display: block;
     cursor: pointer;
     background: url(menu.png) no-repeat left center;
     padding: 10px 0 10px 147px;
+    margin-top: 10px;
     color: white;
     text-shadow: 2px 5px black;
 }
