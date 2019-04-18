@@ -1,0 +1,204 @@
+/* about navbar style here */
+/* .container {
+    background-image: url("https://cms.qz.com/wp-content/uploads/2016/05/siliconvalley.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #C378E8;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+} */
+
+.collapsible-menu2 {
+    /* background-image: url("https://cms.qz.com/wp-content/uploads/2016/05/siliconvalley.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(91, 13, 130, 0.6); */
+}
+
+.collapsible-menu2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.collapsible-menu2 a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-left: 30px;
+}
+
+.collapsible-menu2 label {
+    font-family: 'Damion', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    display: block;
+    cursor: pointer;
+    background: url(menu.png) no-repeat left center;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-left: 42px;
+}
+    
+input#menu {
+    display: none;
+}
+
+input:checked +label {
+    background-image: url(close.png);
+}
+
+.menu-content2 {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Dokdo', cursive;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* Toggle Effect */
+input:checked ~ label {
+    background-image: url("close.png");
+}
+input:checked ~ .menu-content2 {
+    max-height: 100%;
+}
+
+/* get-started style here */
+.get-started {
+    background-image: url("https://cms.qz.com/wp-content/uploads/2016/05/siliconvalley.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(91, 13, 130, 0.6);
+
+}
+
+.get-started h2 {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.get-started button {
+    border-radius: 3px;
+    background-color: #89E312;
+    color: white;
+    margin: 0 65px;
+    height: 30px;
+    font-size: 10px;
+    /* padding: auto; */
+    /* text-align: center; */
+    width: 50%;
+}
+
+.get-started img {
+    width: 100%;
+}
+
+.get-started p {
+    color: white;
+    font-family: 'Amatic SC', cursive; 
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* team-profile style here */
+.team-profile {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+    color: #48AEF2;
+}
+
+.team-profile p {
+    color: white;
+}
+
+.team-profile img {
+    margin-top: 50px;
+}
+
+/* about page form style here */
+h1 {
+    font-size: 2.25rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-family: 'Amatic SC', cursive; 
+}
+.contact-form2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.form-group2 {
+    padding: 0.5rem;
+}
+.fname2, .lname2, .email2 {
+    height: 35px;
+    border:none;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 0 5px;
+    transition: .1s ease;
+}
+
+.fname2:focus, .lname2:focus, .email2:focus, .message2:focus {
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+.fname2 {
+    width: 46.5%;
+}
+
+.lname2 {
+    margin-left: 4%;
+    width: 47.5%
+}
+
+.email2 {
+    width: 100%;
+}
+
+.message2 {
+    height: 105px;
+    width: 100%;
+    border:none;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 5px 5px;
+    transition: .1s ease;
+    font-family: Helvetica, sans-serif;
+}
+
+.submit2 {
+    width:100%;
+    height:35px;
+    border:none;
+    border-radius: 0.5rem;
+    color:#fff;
+    background: #AA2233;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.submit2:hover {
+    background: #CBE83E;
+    color: black;
+}
+
+/* team-profile style here */
+.team-profile p {
+   color: black;
+   text-align: center;
+}
+
+
+
+
