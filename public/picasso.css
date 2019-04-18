@@ -12,38 +12,38 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 @media(max-width:500px) {
-.menu  a {
-   text-align: center;
-   font-size: 15px;
-   padding-left: 24px;
+.navbar a {
+   font-size: 10px;
+   padding: 5px 102px;
+   margin-left: 19px;
+   
 }
 }
 
-.navbar, .menu, a {
+.navbar a {
     color: white;
     text-shadow: 2px 2px black;
     font-family: 'Source Code Pro', monospace;
     font-weight: bolder;
     font-size: 25px;
-    padding: 0 20px;
-    
+    padding: 10px 45px;
 }
 
-@media(max-width:500px) {
+/* @media(max-width:500px) {
 .navbar, .icons, i {
     text-align: center;
     font-size: 15px;
-    padding-left: 17px;
+    padding-left: 20px;
 }
 }
 
 .navbar, .icons, i {
     font-size: 25px;
-}
+} */
 /* about style here */
 .about {
     padding-top: 30px;
