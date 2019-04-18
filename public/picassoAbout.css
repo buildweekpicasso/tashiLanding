@@ -1,55 +1,28 @@
 /* about navbar style here */
 
-.collapsible-menu2 ul {
-    list-style-type: none;
-    padding: 0;
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
 }
 
-.collapsible-menu2 a {
-    display:block;
-    padding: 10px;
-    text-decoration: none;
+@media(max-width:500px) {
+.navbar {
+    margin-right: 52px;
+}
+}
+
+.navbar a {
     color: white;
     text-shadow: 2px 2px black;
-    margin-left: 30px;
-}
-
-.collapsible-menu2 label {
-    font-family: 'Damion', cursive;
-    font-size: 35px;
-    font-weight: 400;
-    display: block;
-    cursor: pointer;
-    background: url(menu.png) no-repeat left center;
-    color: white;
-    text-shadow: 2px 2px black;
-    margin-left: 42px;
-}
-    
-input#menu {
-    display: none;
-}
-
-input:checked +label {
-    background-image: url(close.png);
-}
-
-.menu-content2 {
-    max-height: 0;
-    overflow: hidden;
-    font-family: 'Dokdo', cursive;
-    color: white;
+    font-family: 'Source Code Pro', monospace;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 15px;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-/* Toggle Effect */
-input:checked ~ label {
-    background-image: url("close.png");
-}
-input:checked ~ .menu-content2 {
-    max-height: 100%;
-}
 
 /* get-started style here */
 .purple {
@@ -78,6 +51,12 @@ input:checked ~ .menu-content2 {
     width: 50%;
 }
 
+@media(max-width:500) {
+.get-started button {
+    width: 100%;
+}
+}
+
 .get-started img {
     width: 100%;
 }
@@ -86,6 +65,30 @@ input:checked ~ .menu-content2 {
     margin-left: 80px;
     margin-top: 25px;
     /* margin-bottom: 25px; */
+}
+
+@media(max-width:800px){
+    #mix-img1 {
+    margin-left: 0;
+}
+}
+
+@media(max-width:800px){
+    #mix-img2 {
+    display: none;
+}
+}
+
+@media(max-width:500px){
+#mix-img1 {
+    margin-left: 0;
+}
+}
+
+@media(max-width:500px){
+#mix-img2 {
+     display: none;
+}
 }
 
 /* #mix-img2 {
@@ -195,8 +198,14 @@ h1 {
 
 .ourTeam p {
     text-align: center;
-    margin: 30px 220px;
+    padding: 30px 100px;
 }
+
+/* @media(max-width:500){
+.ourTeam p {
+    padding: 0 10px;
+}
+} */
     
 .ourTeam hr {
     border-bottom: 2px solid red;
@@ -204,7 +213,50 @@ h1 {
 }
 
 /*  meet-Team style here    */
+.meet-Team {
+    margin-bottom: 100px;
+}
+
 .meet-Team p {
     text-align: center;
-    padding: 125px 50px;
+    padding: 40px 50px;
+}
+
+#front1 {
+    height: 250px;
+    width: 100%;
+}
+
+#front2 {
+    height: 250px;
+    width: 100%;
+}
+
+#front3 {
+    height: 250px;
+    width: 100%;
+}
+
+#back1 {
+    height: 420px;
+    width: 100%;
+}
+
+#back2 {
+    height: 420px;
+    width: 100%;
+}
+
+#data1 {
+    height: 500px;
+    width: 100%;
+}
+
+#data2 {
+    height: 500px;
+    width: 100%;    
+}
+
+#teamLead {
+    width: 100%;
 }
