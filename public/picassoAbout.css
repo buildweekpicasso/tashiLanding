@@ -6,11 +6,11 @@
     padding: 20px 10px;
 }
 
-@media(max-width:500px) {
+/* @media(max-width:500px) {
 .navbar {
     margin-right: 52px;
 }
-}
+} */
 
 .navbar a {
     color: white;
