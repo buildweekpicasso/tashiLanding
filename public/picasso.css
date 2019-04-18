@@ -10,70 +10,40 @@
     background-size: cover;
 }
 
-.navbar a {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:500px) {
+.menu  a {
+   text-align: center;
+   font-size: 15px;
+   padding-left: 24px;
+}
+}
+
+.navbar, .menu, a {
     color: white;
-    font-family: 'Dokdo', cursive;
-    font-size: 30px;
-}
-
-.icons i {
-    font-size: 40px;
-    color: white;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
-.collapsible-menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.collapsible-menu a {
-    display:block;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-.collapsible-menu label {
-    font-family: 'Dokdo', cursive;
-    font-size: 40px;
-    font-weight: 400;
-    display: block;
-    cursor: pointer;
-    background: url(menu.png) no-repeat left center;
-    padding: 10px 0 10px 147px;
-    margin-top: 10px;
-    color: white;
-    text-shadow: 2px 5px black;
-}
-    
-input#menu {
-    display: none;
-}
-
-input:checked +label {
-    background-image: url(close.png);
-}
-
-.menu-content {
-    max-height: 0;
-    overflow: hidden;
-    font-family: 'Dokdo', cursive;
-    padding: 0 0 0 137px;
-    color: #2B2B2B;
+    text-shadow: 2px 2px black;
+    font-family: 'Source Code Pro', monospace;
     font-weight: bolder;
     font-size: 25px;
+    padding: 0 20px;
+    
 }
 
-/* Toggle Effect */
-input:checked ~ label {
-    background-image: url(close.png);
+@media(max-width:500px) {
+.navbar, .icons, i {
+    text-align: center;
+    font-size: 15px;
+    padding-left: 17px;
 }
-input:checked ~ .menu-content {
-    max-height: 100%;
 }
 
+.navbar, .icons, i {
+    font-size: 25px;
+}
 /* about style here */
 .about {
     padding-top: 30px;
