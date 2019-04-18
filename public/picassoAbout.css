@@ -43,6 +43,29 @@ input:checked +label {
     font-size: 25px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+@media(max-width:500px) {
+.navbar {
+    margin-right: 52px;
+}
+}
+
+.navbar a {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 /* Toggle Effect */
 input:checked ~ label {
     background-image: url("close.png");
@@ -86,6 +109,30 @@ input:checked ~ .menu-content2 {
     margin-left: 80px;
     margin-top: 25px;
     /* margin-bottom: 25px; */
+}
+
+@media(max-width:800px){
+    #mix-img1 {
+    margin-left: 0;
+}
+}
+
+@media(max-width:800px){
+    #mix-img2 {
+    display: none;
+}
+}
+
+@media(max-width:500px){
+#mix-img1 {
+    margin-left: 0;
+}
+}
+
+@media(max-width:500px){
+#mix-img2 {
+     display: none;
+}
 }
 
 /* #mix-img2 {
@@ -195,8 +242,14 @@ h1 {
 
 .ourTeam p {
     text-align: center;
-    margin: 30px 220px;
+    padding: 30px 100px;
 }
+
+/* @media(max-width:500){
+.ourTeam p {
+    padding: 0 10px;
+}
+} */
     
 .ourTeam hr {
     border-bottom: 2px solid red;
