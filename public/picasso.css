@@ -1,23 +1,26 @@
-/* body {
-    background-image: url("https://www.nationalgeographic.com/content/dam/magazine/rights-exempt/2018/05/picasso-timeline/picasso-art-og.ngsversion.1524110468648.adapt.1900.1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .container {
     background-color: #EEEEEE;
 }
 
-/* navbar style here */
-.menu-content {
-    font-family: 'Montserrat', sans-serif;
-    padding: 0 0 0 50px;
-}
-
-.collapsible-menu {
-    background-image: url("https://www.culturewhisper.com/redactor_uploads/63f44c1733116d00dc2a19018bdc1c01.jpg");
+              /* navbar style here */
+.navbar {
+    background-image: url("http://www.moma.org/media/W1siZiIsIjI5ODcxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=1f73dca2629bc5e5");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.navbar a {
+    color: white;
+    font-family: 'Dokdo', cursive;
+    font-size: 30px;
+}
+
+.icons i {
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .collapsible-menu ul {
@@ -29,19 +32,20 @@
     display:block;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .collapsible-menu label {
-    font-family: 'Damion', cursive;
-    font-size: 70px;
+    font-family: 'Dokdo', cursive;
+    font-size: 40px;
     font-weight: 400;
     display: block;
     cursor: pointer;
     background: url(menu.png) no-repeat left center;
-    padding: 10px 0 10px 50px;
-    color: #2B2B2B;
-    text-shadow: 2px 5px rgb(238, 228, 228);
+    padding: 10px 0 10px 147px;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 2px 5px black;
 }
     
 input#menu {
@@ -56,7 +60,7 @@ input:checked +label {
     max-height: 0;
     overflow: hidden;
     font-family: 'Dokdo', cursive;
-    padding: 0 0 0 50px;
+    padding: 0 0 0 137px;
     color: #2B2B2B;
     font-weight: bolder;
     font-size: 25px;
@@ -73,25 +77,76 @@ input:checked ~ .menu-content {
 /* about style here */
 .about {
     padding-top: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .about p {
+    margin-top: 50px;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     text-align: center;
 }
 
-/* .about p:first-child {
-    font-family: 'Damion', cursive;
-    font-weight: 900;
-    font-size: 25px;
-} */
-
 .about img {
-    height: 500px;
+    height: auto;
     border: 2px solid black;
+    width: 100%;
+}
+
+/* art-header style here*/
+.art-header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.art-header h1 {
+    font-family: 'Dokdo', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.art-header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 0 50px 70px auto;
+    margin-bottom: 90px;
+}
+
+/* art-section style here*/
+.art-section {
+    text-align: center;
+    background-image: url("https://www.metmuseum.org/toah/images/hb/hb_50.188.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art-section p {
+    padding-top: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.art-section img {
+    margin-top: 50px;
+}
+
+#pic1 {
+    margin-top: 12px;
+    width: 100%;
+}
+
+#pic2 {
+    margin-top: 108px;
+}
+
+#pic3 {
+    margin-top: 82px;  
+}
+
+#pic4 {
+    margin-top: 64px;
     width: 100%;
 }
 
@@ -102,13 +157,16 @@ h1 {
     text-align: center;
     padding: 0.5rem;
 }
+
 .contact-form {
     width: 90%;
     margin: 0 auto;
 }
+
 .form-group {
     padding: 0.5rem;
 }
+
 .fname, .lname, .email {
     height: 35px;
     border:none;
@@ -117,19 +175,24 @@ h1 {
     padding: 0 5px;
     transition: .1s ease;
 }
+
 .fname:focus, .lname:focus, .email:focus, .message:focus {
     box-shadow: 0px 0px 10px #aaa;
 }
+
 .fname {
     width: 46.5%;
 }
+
 .lname {
     margin-left: 4%;
     width: 47.5%
 }
+
 .email {
     width: 100%;
 }
+
 .message {
     height: 105px;
     width: 100%;
@@ -140,6 +203,7 @@ h1 {
     transition: .1s ease;
     font-family: Helvetica, sans-serif;
 }
+
 .submit {
     width:100%;
     height:35px;
@@ -152,151 +216,10 @@ h1 {
     cursor: pointer;
     transition: .2s ease-in-out;
 }
+
 .submit:hover {
     background: yellow;
     color: black;
 }
 
-/* ABOUT US Css Starts here */
-/* ___________________________________________ */
-
-
-
-/* about navbar style here */
-
-
-.menu-content2 {
-    font-family: 'Montserrat', sans-serif;
-    padding: 0 0 0 50px;
-}
-
-.collapsible-menu2 {
-    background-color: #3B9CE6;
-}
-
-.collapsible-menu2 ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.collapsible-menu2 a {
-    display:block;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-.collapsible-menu2 label {
-    font-family: 'Damion', cursive;
-    font-size: 70px;
-    font-weight: 400;
-    display: block;
-    cursor: pointer;
-    background: url(menu.png) no-repeat left center;
-    color: white;
-    text-shadow: 2px 2px black;
-    text-align: center;
-    padding-left: -5px;
-}
-    
-input#menu {
-    display: none;
-}
-
-input:checked +label {
-    background-image: url(close.png);
-}
-
-.menu-content2 {
-    max-height: 0;
-    overflow: hidden;
-    font-family: 'Dokdo', cursive;
-    padding: 0 0 0 50px;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 25px;
-}
-
-/* Toggle Effect */
-input:checked ~ label {
-    background-image: url(close.png);
-}
-input:checked ~ .menu-content2 {
-    max-height: 100%;
-}
-
-/* about-Us style here */
-.about-Us {
-    padding-top: 80px;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    background-color: #0D63A5;
-}
-
-.about-Us h2 {
-    font-weight: 500;
-    font-size: 120px;
-    color: #48AEF2;
-    font-weight: bolder;
-    text-shadow: 2px 2px black;
-    
-}
-
-.about-Us p {
-    font-weight: 400;
-    font-size: 35px;
-    color: white;
-    
-}
-
-/* team-Info style here */
-.team-Info p {
-    font-family: 'Raleway', sans-serif;
-}
-
-.team-profile {
-    background-color: #CFD1C4;
-}
-
-/* company-img style here */
-.company-img {
-    margin-right: 150px;
-    margin-left: 100px;
-}
-
-.company-img img {
-   height: 100px;
-   width: 150px;
-}
-
-.pic1 {
-    margin-top: 229px;
-    margin-left: 226px;
-}
-
-.pic2 {
-    margin-top: 21px;
-    margin-left: 100px;
-}
-
-.pic3 {
-    margin-top: 125px;
-    margin-left: -41px;
-}
-
-.pic4 {
-    margin-top: 258px;
-    margin-left: 125px;
-}
-
-.pic5 {
-    margin-top: 50px;
-    margin-right: 20px;
-}
-
-.pic6 {
-    margin-top: 154px;
-    margin-right: 20px;
-}
-
+/* landing page style css ending  */
