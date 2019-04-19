@@ -75,6 +75,7 @@
     font-family: 'Dokdo', cursive;
     font-weight: bolder;
     font-size: 50px;
+    color: black;
 }
 
 .art-header p {
@@ -192,4 +193,54 @@ h1 {
     color: black;
 }
 
-/* landing page style css ending  */
+/* example-section style here */
+.example-section img {
+    width: 100%;
+}
+
+.project h1 {
+    font-family: 'Dokdo', cursive;
+    margin-top: 40px;
+    color: white;
+    font-size: 50px;
+}
+
+.example-section p {
+    text-align: center;
+    font-family: 'Dokdo', cursive;
+    margin: 0 0;
+    color: white;
+    font-size: 26px;
+}
+
+.final-say, h1, h2{
+    text-align: center;
+    font-family: 'Dokdo', cursive;
+    margin-top: 40px;
+    color: white;
+}
+
+.click {
+    color: #D5DF4C;
+    font-size: 50px;
+}
+
+.final-say {
+    border-bottom: 2px solid black;
+}
+
+.last-part {
+    background-image: url("https://thewallpaper.co/wp-content/uploads/2016/03/pablo-picasso-wallpaper-full-screen-high-resolution-download-images-free-hd-free-images-amazing-colors-1920x1080-768x432.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.first-part {
+    background-image: url("https://www.iphonetools.net/wp-content/uploads/2019/02/Pastel-paint-brush-stroke-background-720x1281.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.join {
+    color: #AA2233;
+}

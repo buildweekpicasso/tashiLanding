@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Permanent+Marker" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <link rel="stylesheet" href="picassoAbout.css">
+    <script src="./picassoAbout.js"></script>
 </head>
 <body>
 
@@ -30,7 +31,7 @@
                 <div class="row">
                         <div class="col-lg-3 col-md-6"> 
                           <h2>Get started and explore</h2>
-                          <button>Join our program</button>
+                           <a href="https://picasso-frontend.netlify.com/login"><button>Join our program</button></a> 
                         </div>
                         <div class="col-lg-3 col-md-12">
                           <img id="mix-img1" class="img-thumbnail" src="https://cdn-images-1.medium.com/max/1600/0*voAnvCOZosnVvMD9" alt="">
@@ -48,80 +49,102 @@
 
             <div class="ourTeam">
             <div class="row">
-                <div class="col-lg-12">
-                    <h2>Our team</h2>
+                <div class="col-lg-4">
+                    <h2>Meet the team</h2>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam laboriosam explicabo suscipit expedita animi repellendus dolores tenetur maxime voluptas quasi, minus debitis neque a unde, ut aliquid sunt enim illum.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque laboriosam, obcaecati impedit exercitationem iste vitae tempora hic sint atque sequi rem facere deleniti distinctio minima necessitatibus quo numquam repellendus reiciendis!</p>
+                    <img class="img-thumbnail" src="http://ostadanweb.com/wp-content/uploads/2019/01/alphatestersanimation2.gif" alt="">
+                    <p>Picasso Art Fusion (PAF) have the brighest software developers from all over the world</p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-thumbnail" src="http://www.aaditritechnology.com/images/software-development.gif" alt="">
+                    <p>We bring user experience to the forefront and easy accessibility to millions</p>
+                </div>
+                <div class="col-lg-4">
+                        <h2>Future in art</h2>
+                        <hr>
+                    <img class="img-thumbnail" src="https://www.scheffey.com/wp-content/uploads/2017/05/29_websites-graphic.gif" alt="">
+                    <p>The PAF team is excited about the future and possibilities we are working towards </p>
                 </div>
             </div> <!-- row end -->
             </div> <!-- ourTeam end -->
          <!-- -------------------------------------------------------------------------------------------------- -->
          
-            <div class="meet-Team">
+           <button class="hide-team">See team</button>
+            <div class="meet-team">
 
-                    <div class="front-end-H1">
-                            <h1>Front End</h1>
+                    <div class="teamLead">
+                            <h1>Team Leader</h1>
+                    <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <img id="teamLead" class="img-thumbnail" src="https://api.deepai.org/job-view-file/902365ea-c038-42d1-988e-8d46aad32e67/outputs/output.png" alt="">
+                            </div>    
+                            <div class="col-lg-6 col-sm-12">
+                                <li>Chaired monthly team meetings for service / project review and knowledge sharing for improvement in service quality and advancement of team capability.</li>
+                                <li>Partnered with management in the recruitment and selection of new employees and consultants, ensuring quality support in growing service.</li>
+                                <li>Led and participated in projects, managed escalations, assigned work, and interfaced with program office on service delivery improvements.</li>
+                            </div>
                     </div>
+                    </div> <!-- teamLead end -->
 
+                    <div class="front-end">
+                            <h1>Front End</h1>
                 <div class="row">
                     <div class="col-lg-4">
-                                <img id="front1" class="img-thumbnail" src="https://files.slack.com/files-pri/T4JUEB3ME-FHZQEK9LG/419192_517012258142_1872596366_n.jpg">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, necessitatibus velit! Asperiores explicabo porro, illum veniam sed possimus distinctio similique accusamus minus repellat quo perferendis quis expedita, quos dolorum nostrum?</p>
+                                <img id="front1" class="img-thumbnail" src="https://api.deepai.org/job-view-file/44c6702e-cd90-44cb-bd46-2a05a127c19b/outputs/output.png">
+                                <li>Designed and developed views/templates on top of C#, using the Razor templating engine.</li>
+                                <li>Created and implemented a custom CSS grid system, with CSS media queries for mobile responsiveness.</li>
+                                <li>Increased front-end efficiency by transferring the blogs over to wordpress and brand-associated them with the main site.</li>
                     </div> 
                     <div class="col-lg-4">
-                                <img id="front2" class="img-thumbnail" src="https://files.slack.com/files-pri/T4JUEB3ME-FJ2HL2E4F/manju.jpg">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, necessitatibus velit! Asperiores explicabo porro, illum veniam sed possimus distinctio similique accusamus minus repellat quo perferendis quis expedita, quos dolorum nostrum?</p>
+                                <img id="front2" class="img-thumbnail" src="https://api.deepai.org/job-view-file/5110543a-6106-4006-bd2f-8df5e6762855/outputs/output.png">
+                                <li>Created and maintained the front-end standards document and oversaw production of Javascript, HTML, and CSS (and PHP for the wordpress blog.</li>
+                                <li>Programmed HTML5 canvases to animate particles on web backgrounds for site-wide promotions.</li>
+                                <li>Leveraged responsive web frameworks to consistently complete product deliverables ahead of schedule.</li>
                     </div>   
                     <div class="col-lg-4">
-                                <img id="front3" class="img-thumbnail" src="https://files.slack.com/files-pri/T4JUEB3ME-FHTH8FLSV/pasted_image_at_2019-04-17__3_50_pm.png">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, necessitatibus velit! Asperiores explicabo porro, illum veniam sed possimus distinctio similique accusamus minus repellat quo perferendis quis expedita, quos dolorum nostrum?</p>
+                                <img id="front3" class="img-thumbnail" src="https://api.deepai.org/job-view-file/b971ffde-fb36-4fb1-9713-177eee79c5f0/outputs/output.png">
+                                <li>Developed and designed UI for a database of customer's health and created secure login for Blue access for Members.</li>
+                                <li>Developed and designed Special Beginnings Assessment Forms for mothers in different stages of expectancy.</li>
+                                <li id="bug">Developed code for Shadowboxes, Slider Carousals, Tickers, Rotating Headers, Validation and JS animations.</li>
                     </div> 
                 </div> <!-- row end -->
+                </div> <!-- front-end end -->
 
-                <div class="back-end-H1">
+                <div class="back-end">
                         <h1>back End</h1>
-                </div>
-
                 <div class="row">
                     <div class="col-lg-6">
-                            <img id="back1" class="img-thumbnail" src="https://files.slack.com/files-pri/T4JUEB3ME-FHNBX7RB4/img_0189_copy.jpg">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, necessitatibus velit! Asperiores explicabo porro, illum veniam sed possimus distinctio similique accusamus minus repellat quo perferendis quis expedita, quos dolorum nostrum?</p>
+                            <img id="back1" class="img-thumbnail" src="https://api.deepai.org/job-view-file/b5c0a464-27ba-4c71-a23f-dfeb5f7257cf/outputs/output.png">
+                            <li>Liaise with network administrators, systems analysts, programmers, and other software engineers to resolve any defects in products or company systems</li>
+                            <li>Responsible for defining, developing, and evolving software in a fast paced and agile development environment using the latest software development methods and infrastructure</li>
+                            <li>Knowledge of technology trends, including but not restricted to front end & back end technologies, Rapid Prototyping, Behavior Driven Development, trends in Social Networking/Media, Video and Streaming</li>
                     </div>
                     <div class="col-lg-6">
-                            <img id="back2" class="img-thumbnail" src="https://files.slack.com/files-pri/T4JUEB3ME-FHNBYSYNN/image.png">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, necessitatibus velit! Asperiores explicabo porro, illum veniam sed possimus distinctio similique accusamus minus repellat quo perferendis quis expedita, quos dolorum nostrum?</p>
+                            <img id="back2" class="img-thumbnail" src="https://api.deepai.org/job-view-file/0eef0636-98e9-4217-bfb2-c0e3b5cbe12f/outputs/output.png">
+                            <li>Design, develop, troubleshoot, debug, test, ensure browser compatibility, and implement website code by using Microsoft SQL Server and Microsoft .NET, C#, and ASP.NET MVC</li>
+                            <li>Knowledge of technology trends, including but not restricted to front end & back end technologies, Rapid Prototyping, Behavior Driven Development, trends in Social Networking/Media, Video and Streaming</li>
+                            <li>Design, develop, troubleshoot, debug, test, ensure browser compatibility, and implement website code by using Microsoft SQL Server and Microsoft .NET, C#, and ASP.NET MVC</li>
                     </div>
-                    
                 </div> <!-- row end -->
+                </div> <!-- back-end end -->
 
-                <div class="data-science-H1">
+                <div class="data-science">
                         <h1>Data Science</h1>
-                </div>
-
                 <div class="row">
                     <div class="col-lg-6">
-                            <img id="data1" class="img-thumbnail" src="https://files.slack.com/files-pri/T4JUEB3ME-FHZ76LD7W/tutor_profile.jpg">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, necessitatibus velit! Asperiores explicabo porro, illum veniam sed possimus distinctio similique accusamus minus repellat quo perferendis quis expedita, quos dolorum nostrum?</p>
+                            <img id="data1" class="img-thumbnail" src="https://api.deepai.org/job-view-file/af9d71df-c087-4784-affe-058753f7f359/outputs/output.png">
+                            <li>Perform EDA and feature engineering to both inform the development of statistical models and generate improve model performance and flexibility</li>
+                            <li>Work with Capgemini’s global data science leadership to execute identified business use cases on time and manage project delivery / client expectations</li>
+                            <li>Assist with the development of standardize reporting solutions that align metrics and drivers with the associated financials</li>
                     </div>
                     <div class="col-lg-6">
-                            <img id="data2" class="img-thumbnail" src="https://files.slack.com/files-pri/T4JUEB3ME-FHN9PQHD1/img_20190320_175307.jpg">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, necessitatibus velit! Asperiores explicabo porro, illum veniam sed possimus distinctio similique accusamus minus repellat quo perferendis quis expedita, quos dolorum nostrum?</p>
+                            <img id="data2" class="img-thumbnail" src="https://api.deepai.org/job-view-file/86f0bbfa-3153-41cd-9fdc-d2c03c8232be/outputs/output.png">
+                            <li>Developed intricate algorithms based on deep-dive statistical analysis and predictive data modeling that were used to deepen relationships, strengthen longevity and personalize interactions with customers.</li>
+                            <li>Analyzed and processed complex data sets using advanced querying, visualization and analytics tools.</li>
+                            <li>Identified, measured and recommended improvement strategies for KPIs across all business areas.</li>
                     </div>
                 </div> <!-- row end -->
-
-                <div class="teamLead">
-                        <h1>Team Lead</h1>
-                </div>
-
-                <div class="row">
-                        <div class="col-lg-6">
-                            <img id="teamLead" class="img-thumbnail" src="https://files.slack.com/files-pri/T4JUEB3ME-FHZAHAW5S/thomas.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non voluptatem, corporis temporibus aut eos commodi optio quod? Repudiandae magni amet quia adipisci, ipsam quod dignissimos vel autem asperiores ad!</p>
-                        </div>
-                </div>
+                </div> <!-- data-science end -->
 
             </div> <!-- meet-Team end -->
 
@@ -161,13 +184,4 @@
 
 
 
-<!-- <div class="icons2">
-        <a href="https://www.facebook.com/pablopicassomuseum/"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com/pablo___picasso/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.tumblr.com/tagged/picasso"><i class="fab fa-tumblr-square"></i></a>
-</div> -->
 
-<!-- <div class="about-Us">
-                    <h2>OUR GOAL</h2>
-                    <p>Inspiration and Innovation</p>
-</div> -->
