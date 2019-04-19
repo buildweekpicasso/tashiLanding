@@ -4,15 +4,14 @@ window.onload = function() {
  
  function myTeam() {
     var ourTeam = document.querySelector('.hide-team');
- 
+     debugger
     ourTeam.addEventListener('click', () => {
         var article = document.querySelector('.meet-team');
-    console.log("hello")
-        // if (!article.style.display || article.style.display === 'none') {
-        //     article.style.display = 'block';
-        // } else {
-        //     article.style.display = 'none';
-        // }
+        if (!article.style.display || article.style.display === 'none') {
+            article.style.display = 'block';
+        } else {
+            article.style.display = 'none';
+        }
     })
  }
 

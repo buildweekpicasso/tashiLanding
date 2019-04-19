@@ -269,7 +269,7 @@ h1 {
 /* hide-team css here */
 .hide-team {
     text-align: center;
-    margin: 0 512px 30px 512px;;
+    margin: 0 446px 36px 490px;;
     border: 1px solid black;
     border-radius: 5rem;
     height: 35px;
@@ -277,4 +277,11 @@ h1 {
     font-family: 'Amatic SC', cursive; 
     font-weight: bolder;
     font-size: 23px;
+}
+
+@media(max-width:500px) {
+.hide-team {
+width: 100%;
+margin: 0;
+}
 }
