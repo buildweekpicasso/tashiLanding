@@ -45,15 +45,17 @@
     border-radius: 3px;
     background-color: #89E312;
     color: white;
-    margin-left: 90px;
+    margin-left: 65px;
     height: 30px;
     font-size: 10px;
     width: 50%;
 }
 
-@media(max-width:500) {
+@media(max-width:500px) {
 .get-started button {
     width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
 }
 }
 
@@ -201,6 +203,8 @@ h1 {
 .ourTeam p {
     text-align: center;
     padding: 30px 100px;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 23px;
 }
     
 .ourTeam hr {
@@ -213,6 +217,10 @@ h1 {
     width: 100%;
 }
 
+.ourTeam {
+    margin-top: 50px;
+}
+
 /*  meet-Team style here    */
 .meet-Team {
     margin-bottom: 100px;
@@ -221,6 +229,7 @@ h1 {
 .meet-Team p {
     text-align: center;
     padding: 40px 50px;
+    font-family: 'Amatic SC', cursive;
 }
 
 #front1 {
@@ -266,10 +275,15 @@ h1 {
     display: none;
 }
 
+.meet-team li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    font-weight: bolder;
+}
 /* hide-team css here */
 .hide-team {
     text-align: center;
-    margin: 0 446px 36px 490px;;
+    margin: 0 476px 36px 493px;;
     border: 1px solid black;
     border-radius: 5rem;
     height: 35px;
@@ -284,4 +298,67 @@ h1 {
 width: 100%;
 margin: 0;
 }
+}
+
+/* teamLead */
+.teamLead {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+@media(max-width:500px){
+.teamLead h1 {
+    margin-top: 50px;
+}
+}
+
+.teamLead li {
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.front-end {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.front-end li {
+    margin: 20px 35px;
+}
+
+@media(max-width:500px) {
+.front-end li {
+    margin: 40px 35px;
+}
+}
+
+.back-end {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.back-end li {
+    margin: 20px 60px;
+}
+
+@media(max-width:500px) {
+.back-end li {
+    margin: 40px 35px;
+}
+}
+
+@media(max-width:500px) {
+#bug {
+    margin-bottom: -20px;
+}
+}
+
+.data-science {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.data-science li {
+    margin: 20px 60px;
 }

@@ -4,7 +4,6 @@ window.onload = function() {
  
  function myTeam() {
     var ourTeam = document.querySelector('.hide-team');
-     debugger
     ourTeam.addEventListener('click', () => {
         var article = document.querySelector('.meet-team');
         if (!article.style.display || article.style.display === 'none') {
