@@ -194,22 +194,23 @@ h1 {
 .ourTeam h2 {
     text-align: center;
     margin-top: 20px;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 50px;
 }
 
 .ourTeam p {
     text-align: center;
     padding: 30px 100px;
 }
-
-/* @media(max-width:500){
-.ourTeam p {
-    padding: 0 10px;
-}
-} */
     
 .ourTeam hr {
     border-bottom: 2px solid red;
     margin: 0 520px;
+    margin-bottom: 30px;
+}
+
+.ourTeam img {
+    width: 100%;
 }
 
 /*  meet-Team style here    */
@@ -259,4 +260,21 @@ h1 {
 
 #teamLead {
     width: 100%;
+}
+
+.meet-team {
+    display: none;
+}
+
+/* hide-team css here */
+.hide-team {
+    text-align: center;
+    margin: 0 512px 30px 512px;;
+    border: 1px solid black;
+    border-radius: 5rem;
+    height: 35px;
+    width: 117px;
+    font-family: 'Amatic SC', cursive; 
+    font-weight: bolder;
+    font-size: 23px;
 }
